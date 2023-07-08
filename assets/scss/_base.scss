@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
 }
 // 通用樣式
-h1 {
+h1, .h1 {
   font-size: 8rem;
 }
 .fs-1 {
@@ -65,8 +65,12 @@ h1 {
 .mb-8 {
   margin-bottom: 0.5rem;
 }
+.ms-auto {
+  margin-left: auto;
+}
 .mx-auto {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .py-3 {
   padding-top: 4rem;
@@ -76,14 +80,10 @@ h1 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-// 特定樣式
-.title {
-  font-size: 2.5rem;
-  color: var(--primary);
-  border-bottom: 3px solid var(--primary);
+
+.d-flex {
+  display: flex;
 }
-.subtitle {
-  font-size: 1.25rem;
-  color: var(--secondary);
-  font-style: italic;
+.justify-content-center {
+  justify-content: center;
 }

@@ -1,0 +1,89 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  color: var(--body-color);
+  text-decoration: none;
+}
+.container {
+  max-width: 1272px;
+  margin: 0 auto;
+}
+// 通用樣式
+h1 {
+  font-size: 8rem;
+}
+.fs-1 {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: right;
+}    
+
+.bg-dark {
+  background: var(--black);
+}
+.bg-light {
+  background: var(--light);
+}
+
+.mt-1 {
+  margin-top: 10rem;
+}
+.mb-1 {
+  margin-bottom: 10rem;
+}
+.mb-2 {
+  margin-bottom: 5rem;
+}
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+.me-5 {
+  margin-right: 2.5rem;
+}
+.mb-6 {
+  margin-bottom: 1rem;
+}
+.mb-7 {
+  margin-bottom: 0.75rem;
+}
+.mb-8 {
+  margin-bottom: 0.5rem;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.py-3 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-4 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+// 特定樣式
+.title {
+  font-size: 2.5rem;
+  color: var(--primary);
+  border-bottom: 3px solid var(--primary);
+}
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--secondary);
+  font-style: italic;
+}

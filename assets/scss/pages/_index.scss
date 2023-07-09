@@ -11,3 +11,8 @@
   color: var(--secondary);
   font-style: italic;
 }
+.hover-style {
+  &:hover {
+    opacity: 0.7;
+  }
+}

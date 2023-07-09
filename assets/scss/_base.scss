@@ -14,6 +14,9 @@ img {
 a {
   color: var(--body-color);
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .container {
   max-width: 1272px;
